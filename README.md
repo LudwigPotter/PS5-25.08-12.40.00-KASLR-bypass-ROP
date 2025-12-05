@@ -1,8 +1,8 @@
-# Kernel Privilege Escalation via Savegame Deserialization (Synthetic Sample)
+# Kernel Privilege Escalation via Savegame Deserialization (PlayStation) ewxploit
 
 ## Summary
 
-A logic flaw in the savegame deserialization pipeline of the **GameOS 9.9.x** firmware allows a low-privileged network client to trigger a kernel heap corruption in the save management service. Under specific heap layouts, this leads to a controlled function pointer overwrite and potential kernel ROP.
+A logic flaw in the savegame deserialization pipeline of the **PS5 25.08 12.40.00** firmware allows a low-privileged network client to trigger a kernel heap corruption in the save management service. Under specific heap layouts, this leads to a controlled function pointer overwrite and potential kernel ROP.
 
 > **Note:** This document is a synthetic sample for detection/testing, not a real exploit.
 
